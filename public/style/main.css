@@ -1,0 +1,47 @@
+.header {
+  background-color: blue;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.header-nav-list {
+  display: flex;
+  list-style: none;
+}
+.list-item {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.header-nav-list__component:nth-child(2) {
+  margin-left: 10px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.alert-message {
+  color: coral;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+.button {
+  width: 40px;
+  padding: 20px;
+  box-sizing: content-box;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: seagreen;
+  transition: 2s;
+}
+.button:hover {
+  background-color: blueviolet;
+  color: azure;
+}
